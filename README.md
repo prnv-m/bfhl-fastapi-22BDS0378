@@ -8,10 +8,9 @@ Production Deployment:
 
 ## Example cURL Requests
 ```
-curl -X POST https://bfhl-fastapi-22bds0378.vercel.app/ \
-     -H "Content-Type: application/json" \
-     -d '{"name":"Pranav","role":"developer"}'
-
+curl -X POST https://bfhl-fastapi-22bds0378.vercel.app/bfhl \
+  -H "Content-Type: application/json" \
+  -d '{"data":["a","1","334","4","R","$"]}'
 ```
 
 ## Expected output 
