@@ -7,12 +7,12 @@ Production Deployment:
 [https://bfhl-fastapi-22bds0378.vercel.app](https://bfhl-fastapi-22bds0378.vercel.app)
 
 ## Example cURL Requests
-``
+```
 curl -X POST https://bfhl-fastapi-22bds0378.vercel.app/ \
      -H "Content-Type: application/json" \
      -d '{"name":"Pranav","role":"developer"}'
 
-``
+```
 
 ## Expected output 
 ``
