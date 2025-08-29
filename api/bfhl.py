@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
 import re
-from mangum import Mangum   # adapter for serverless
 
 app = FastAPI()
 
@@ -62,4 +61,3 @@ async def process_data(req: DataRequest):
         return {"is_success": False, "user_id": f"{FULL_NAME}_{DOB}", "error": str(e)}
 
 # Mangum adapter for Vercel serverless
-handler = Mangum(app)
