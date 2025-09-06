@@ -1,8 +1,8 @@
 # FastAPI + Vercel Deployment
 
-This project is a simple **FastAPI** backend deployed on **Vercel**. It demonstrates how to serve APIs in a serverless environment with minimal configuration.
+This project is a simple **FastAPI** backend deployed on **Vercel** for the Bajaj Finserv Online Assessment.
 
-## 🚀 Deployment URL
+## Deployment URL
 Production Deployment:  
 [https://bfhl-fastapi-22bds0378.vercel.app](https://bfhl-fastapi-22bds0378.vercel.app)
 
